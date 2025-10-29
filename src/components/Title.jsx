@@ -3,7 +3,7 @@ import './Title.css';
 
 const Title = () => {
   return (
-    <h1 className="titulo">Ancleto's Web Page - Test</h1>
+    <h1 className="titulo">Ancleto's Web Page</h1>
   );
 };
 

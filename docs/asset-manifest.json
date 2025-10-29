@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ancletos-web-page/static/css/main.c9cb2cc6.css",
-    "main.js": "/ancletos-web-page/static/js/main.a6c3b600.js",
+    "main.js": "/ancletos-web-page/static/js/main.241d35d4.js",
     "static/js/453.433489bb.chunk.js": "/ancletos-web-page/static/js/453.433489bb.chunk.js",
     "static/media/COOPBL.TTF": "/ancletos-web-page/static/media/COOPBL.dbe0cbaa54b6ad6fa396.TTF",
     "index.html": "/ancletos-web-page/index.html",
     "main.c9cb2cc6.css.map": "/ancletos-web-page/static/css/main.c9cb2cc6.css.map",
-    "main.a6c3b600.js.map": "/ancletos-web-page/static/js/main.a6c3b600.js.map",
+    "main.241d35d4.js.map": "/ancletos-web-page/static/js/main.241d35d4.js.map",
     "453.433489bb.chunk.js.map": "/ancletos-web-page/static/js/453.433489bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9cb2cc6.css",
-    "static/js/main.a6c3b600.js"
+    "static/js/main.241d35d4.js"
   ]
 }

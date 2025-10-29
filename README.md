@@ -15,6 +15,8 @@ A fun, animated web page featuring Ancleto with GIFs, curtains, and looping audi
 
 View the live site: [https://AncletoCEO.github.io/ancletos-web-page](https://AncletoCEO.github.io/ancletos-web-page)
 
+<!-- Updated for deployment -->
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 19

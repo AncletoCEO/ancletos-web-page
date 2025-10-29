@@ -25,9 +25,9 @@ const AudioPlayer = () => {
   return (
     <article id="audio">
       <audio ref={audioRef} loop style={{ display: 'none' }}>
-        <source src="/sonidos/sonido.mp3" type="audio/mp3" />
-        <source src="/sonidos/sonido.ogg" type="audio/ogg" />
-        <source src="/sonidos/sonido.wav" type="audio/wav" />
+        <source src="sonidos/sonido.mp3" type="audio/mp3" />
+        <source src="sonidos/sonido.ogg" type="audio/ogg" />
+        <source src="sonidos/sonido.wav" type="audio/wav" />
       </audio>
     </article>
   );

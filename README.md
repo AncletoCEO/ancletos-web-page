@@ -1,53 +1,140 @@
-# Getting Started with Create React App
+# Ancleto's Web Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun, animated web page featuring Ancleto with GIFs, curtains, and looping audio. Originally a static HTML page, migrated to a modern React application with automatic deployment to GitHub Pages.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Animated Curtains**: Opening curtain animation on load
+- **GIF Gallery**: Collection of themed animated GIFs
+- **Background Audio**: Looping soundtrack that plays on user interaction
+- **Responsive Design**: Works on desktop and mobile
+- **Custom Fonts**: Cooper Black typography
+- **Automatic Deployment**: GitHub Actions for seamless updates to GitHub Pages
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+View the live site: [https://AncletoCEO.github.io/ancletos-web-page](https://AncletoCEO.github.io/ancletos-web-page)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend**: React 19
+- **Build Tool**: Create React App
+- **Styling**: CSS Modules
+- **Deployment**: GitHub Pages with GitHub Actions
+- **Version Control**: Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```
+src/
+├── components/
+│   ├── AudioPlayer.jsx    # Hidden audio player with autoplay on interaction
+│   ├── Curtain.jsx        # Animated opening curtains
+│   ├── Loader.jsx         # Initial loading screen (disabled)
+│   ├── Table.jsx          # GIF collage layout
+│   └── Title.jsx          # Main page title
+├── assets/
+│   └── fonts/             # Custom fonts
+├── App.js                 # Main app component
+├── index.js               # App entry point
+└── index.css              # Global styles
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+public/
+├── gifs/                  # Animated GIFs
+├── sonidos/               # Audio files
+├── img/                   # Images and icons
+└── fonts/                 # Font files
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏗️ Migration from Static HTML
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was migrated from a vanilla HTML/CSS/JavaScript page to a React application:
 
-### `npm run eject`
+- **Original**: Static HTML with inline styles and vanilla JS
+- **New**: Modular React components with CSS Modules
+- **Improvements**: Better maintainability, component reusability, modern tooling
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+See `migration-roadmap.md` for detailed migration notes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Node.js 18+
+- npm or yarn
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AncletoCEO/ancletos-web-page.git
+   cd ancletos-web-page
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Code Splitting
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+This creates a `build` folder with optimized production files.
+
+## 🚀 Deployment
+
+The project uses GitHub Actions for automatic deployment to GitHub Pages:
+
+- **Trigger**: Push to `main` branch
+- **Process**: Build → Move to `docs/` → Commit back to `main`
+- **Result**: GitHub Pages updates automatically
+
+### Manual Deployment
+
+If needed, you can deploy manually:
+
+1. Build the project: `npm run build`
+2. Move `build` to `docs`: `mv build docs`
+3. Commit and push the `docs/` folder
+
+## 🎵 Audio Note
+
+The background audio plays automatically after user interaction (click anywhere) to comply with browser autoplay policies.
+
+## 📝 Scripts
+
+- `npm start` - Start development server
+- `npm run build` - Build for production
+- `npm test` - Run tests
+- `npm run eject` - Eject from Create React App (not recommended)
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit changes: `git commit -m 'Add amazing feature'`
+4. Push to branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+## 📄 License
+
+This project is private and proprietary.
+
+## 🙏 Acknowledgments
+
+- Original static page design
+- React and Create React App teams
+- GitHub Actions for automation
 
 ### Analyzing the Bundle Size
 

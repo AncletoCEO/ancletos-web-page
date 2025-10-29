@@ -1,0 +1,55 @@
+#tabla {
+  display: block;
+}
+
+.reloj1 {
+  margin-left: 105px;
+}
+
+#jesus {
+  text-align: top;
+  margin-left: 15px;
+}
+
+#jesus img {
+  width: 150px; /* Adjust this value to match the desired size */
+  height: auto;
+  background-color: transparent; /* Attempt to make background transparent if possible */
+}
+
+#tostadorachica1 {
+  margin-left: 90px;
+}
+
+.gusano2 {
+  margin-left: 30px;
+}
+
+#tostadorachica2 {
+  margin-left: 35px;
+}
+
+.tostadoragrande {
+  margin-left: 160px;
+}
+
+#boca2 {
+  margin-left: 20px;
+}
+
+#campanagrande {
+  margin-left: 22px;
+}
+
+#campanachica {
+  margin-left: 200px;
+}
+
+.reloj2 {
+  margin-left: 90px;
+  margin-top: -50px;
+}
+
+#tostadora3 {
+  margin-left: 20px;
+}

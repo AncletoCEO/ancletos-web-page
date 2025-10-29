@@ -1,0 +1,53 @@
+#telon {
+  display: flex;
+  flex-direction: row;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  overflow: visible;
+}
+
+#telon-izq, #telon-der {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+}
+
+#telon-izq img, #telon-der img {
+  width: 100%;
+  height: 100%;
+}
+
+#telon-izq {
+  animation-name: mover-a-izq;
+  animation-delay: 0s;
+  animation-duration: 3.5s;
+  left: 0;
+  animation-fill-mode: forwards;
+}
+
+#telon-der {
+  animation-name: mover-a-der;
+  animation-delay: 0s;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+  right: 0;
+}
+
+@keyframes mover-a-izq {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -1000px;
+  }
+}
+
+@keyframes mover-a-der {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: -1000px;
+  }
+}

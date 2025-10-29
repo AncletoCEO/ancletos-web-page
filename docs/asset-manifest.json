@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec9823e9.css",
-    "main.js": "/static/js/main.70458e41.js",
-    "static/js/453.433489bb.chunk.js": "/static/js/453.433489bb.chunk.js",
-    "static/media/COOPBL.TTF": "/static/media/COOPBL.dbe0cbaa54b6ad6fa396.TTF",
-    "index.html": "/index.html",
-    "main.ec9823e9.css.map": "/static/css/main.ec9823e9.css.map",
-    "main.70458e41.js.map": "/static/js/main.70458e41.js.map",
-    "453.433489bb.chunk.js.map": "/static/js/453.433489bb.chunk.js.map"
+    "main.css": "/ancletos-web-page/static/css/main.c9cb2cc6.css",
+    "main.js": "/ancletos-web-page/static/js/main.a6c3b600.js",
+    "static/js/453.433489bb.chunk.js": "/ancletos-web-page/static/js/453.433489bb.chunk.js",
+    "static/media/COOPBL.TTF": "/ancletos-web-page/static/media/COOPBL.dbe0cbaa54b6ad6fa396.TTF",
+    "index.html": "/ancletos-web-page/index.html",
+    "main.c9cb2cc6.css.map": "/ancletos-web-page/static/css/main.c9cb2cc6.css.map",
+    "main.a6c3b600.js.map": "/ancletos-web-page/static/js/main.a6c3b600.js.map",
+    "453.433489bb.chunk.js.map": "/ancletos-web-page/static/js/453.433489bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9823e9.css",
-    "static/js/main.70458e41.js"
+    "static/css/main.c9cb2cc6.css",
+    "static/js/main.a6c3b600.js"
   ]
 }
